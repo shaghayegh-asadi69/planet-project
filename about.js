@@ -52,7 +52,7 @@ let Article4 = new Article(
 
 function addVideo(sourceUrl) {
   const video = document.getElementById("video");
-  video.src = "/114103169-icecaps-iceberg-melting-space-.mp4";
+  video.src = "/assets/114103169-icecaps-iceberg-melting-space-.mp4";
   video.controls = true;
   //videoId.appendChild(video);
 }

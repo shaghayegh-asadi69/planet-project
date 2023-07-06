@@ -18,3 +18,9 @@ function updateNum() {
      containerEl.classList.add("hide");
   }, 1000);
 }
+
+function alertShow(){
+  alert("Submitted successfully!");
+};
+
+  setTimeout(alertShow, 3000);

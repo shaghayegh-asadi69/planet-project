@@ -48,8 +48,10 @@ button {
   border-radius: 10px;
   display: flex;
   margin: auto;
-  height: 35px;
-  width: 85px;
+  height: 45px;
+  width: 100px;
+  font-size: 20px;
+  z-index: 5;
 }
 
 button:hover {
@@ -76,34 +78,30 @@ button:hover {
   border: 5px solid rgb(134, 164, 193);
 }
 
-
-
-
-.container{
-    text-align: center;
-    width: 400px;
-position: relative;
-  }
-.counter{
-    font-size: 30px;
+.container {
+  text-align: center;
+  width: 400px;
+  position: relative;
 }
-.loading-bar-back{
-    position: absolute;
-    height: 8px;
-    background-color: rgb(191, 191, 218);
-    width: 100%;
-    border-radius: 50px;
-    border: none;
+.counter {
+  font-size: 30px;
 }
-.loading-bar-front{
-    position: absolute;
-    height: 8px;
-    background-color: rgb(86, 139, 232);
-    width: 100%;
-    border-radius: 50px;
-    border: none;
-    margin-bottom: 300px;
-
+.loading-bar-back {
+  position: absolute;
+  height: 8px;
+  background-color: rgb(191, 191, 218);
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+}
+.loading-bar-front {
+  position: absolute;
+  height: 8px;
+  background-color: rgb(86, 139, 232);
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 300px;
 }
 .hide {
   display: none;
