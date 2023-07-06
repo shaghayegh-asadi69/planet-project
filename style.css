@@ -52,11 +52,11 @@ nav {
 }
 .fa-solid {
   font-size: 1.5rem;
-  color: rgb(118, 160, 145);
+  color: rgb(49, 123, 219);
   cursor: pointer;
 }
 .fa-bars:hover {
-  color: black;
+  color: rgb(75, 109, 147);
 }
 .menu a {
   color: rgb(100, 179, 225);

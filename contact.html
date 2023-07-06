@@ -3,7 +3,7 @@
 
 <head>
     <title>Contact Page</title>
-    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">https://prod.liveshare.vsengsaas.visualstudio.com/join?C18171E353F4B5D1B9F23FF1690369A09E2E
 </head>
 
 <body>
@@ -13,14 +13,31 @@
             <input type="text" id="name" placeholder="Your Name">
             <input type="email" id="email" placeholder="Your Email">
             <textarea id="message" placeholder="Your Message"></textarea>
-            <button type="submit">Submit</button>
+            <button id="mybtn" type="submit" onclick="updateNum()">Submit</button>
         </form>
-        <div class="social-links">
-            <a href="https://www.facebook.com/example" target="_blank">/www.facebook.com/<i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/example" target="_blank">instagram.com/example<i class="fab fa-instagram"></i></a>
-        </div>
+   
+                <div class="container" id="containerEl">
+                    <h1>Loading</h1>
+                    <div class="counter">0%</div>
+                    <hr class="loading-bar-back">
+                    <hr class="loading-bar-front">
+                </div>
+                alert
+                <div class="social-links">
+                    <a href="https:www.facebook.com" target="_blank">join our facebook<i class="fab fa-facebook"></i><img class="fblogo"
+                            src="./images/fb-icon.png" alt=""></a>
+                    <a href="https://www.instagram.com/example" target="_blank">follow us on instagram<i
+                            class="fab fa-instagram"></i><img class=instalogo; src="./images/insta-icon.png" alt=""></a>
+                </div>
+        
     </div>
-    <script src="script.js"></script>
+    <div class="map">
+        <iframe class="iframe" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-3.4435272216796875%2C53.28122687305016%2C-2.7362823486328125%2C53.504792678292006&amp;layer=mapnik"
+            style="border: 1px solid black"></iframe><br /><small><a
+                href="https://www.openstreetmap.org/#map=11/53.3932/-3.0899"></a></small>
+    </div>
+    <script src="contact.js"></script>
 </body>
 
 </html>

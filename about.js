@@ -1,32 +1,9 @@
 let toggleModeBtn = document.getElementById("toggle-mode-btn");
 
 toggleModeBtn.addEventListener("click", function () {
-  document.body.classList.toggle("dark-mode");
-});
+  document.body.classList.toggle("dark-mode");});
 
-function saveMode() {
-  let mode = JSON.stringify(darkMode);
-  localStorage.setItem("darkMode", mode);
-}
 
-function pageLoad() {
-  let storedMode = JSON.parse(localStorage.getItem("darkMode"));
-  // console.log(storedMode);
-  if (storedMode === null) {
-    darkmode = false;
-    console.log("null");
-    return;
-  }
-  if (storedMode === false) {
-    console.log("light");
-    enterLightMode();
-  } else if (storedMode) {
-    console.log("dark");
-  }
-}
-pageLoad();
-// localStorage.clear();
-// localStorage.removeItem()
 
 function Article(headingText, imageSrc, paragraphText) {
   this.container = document.getElementById("article");
@@ -75,14 +52,14 @@ let Article4 = new Article(
 
 function addVideo(sourceUrl) {
   const video = document.getElementById("video");
-  video.src = "/climate-change-global-warming-.mp4";
+  video.src = "/114103169-icecaps-iceberg-melting-space-.mp4";
   video.controls = true;
   //videoId.appendChild(video);
 }
 addVideo();
 
 //Article1.heading.innerHTML = '<a href="www.google.com">h3</a>';
-Article1.heading.setAttribute("href"," www.google.com");
-Article2.heading.setAttribute("href"," www.google.com");
-Article3.heading.setAttribute("href"," www.google.com");
+Article1.heading.setAttribute("href", " www.google.com");
+Article2.heading.setAttribute("href", " www.google.com");
+Article3.heading.setAttribute("href", " www.google.com");
 Article4.heading.setAttribute("href", " www.google.com");
